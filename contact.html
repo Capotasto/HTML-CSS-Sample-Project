@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Blog Page</title>
+  <link rel="stylesheet" href="css/common.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+  <div id="wrap">
+    <!---header--------------------------------------------------->
+    <div id="header">
+      <p>
+        <a href="./index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+      </p>
+    </div>
+    <!---mainmenu--------------------------------------------------->
+    <div id="mainmenu">
+      <ul>
+        <li class="firstListItem"><a href="index.html">Top Page</a></li>
+        <li><a href="about.html">About Author</a></li>
+        <li><a href="gallery.html">Gallery Room</a></li>
+        <li><a href="blog.html">Blog Page</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <!---main_Content--------------------------------------------------->
+    <div id="contact_content">
+      <h1>Contact Us</h1>
+      <form class="" action="index.html" method="post">
+        <fieldset id="contact_fieldset">
+          <legend>Please Fill in the blank!</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="">
+            <label for="">Surname:</label>
+            <input type="text" name="surname" value="">
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+          </div>
+          <div>
+            <label for="">Age:</label>
+            <input type="number" name="age" value="" min="18" max="150">
+          </div>
+          <div class="">
+            <label for="">Birthday:</label>
+            <input type="date" name="bday" value="" min="1900-1-1">
+          </div>
+          <div id="contact_getder">
+            <label for="">Gender:</label>
+            <input type="radio" name="gen" value="0">Male
+            <input type="radio" name="gen" value="1">Female
+            <input type="radio" name="gen" value="2" checked>unknown
+          </div>
+          <div id="contac_color">
+            <label for="">Favorite Colors: </label>
+            <input type="checkbox" name="interest" value="0">Red
+            <input type="checkbox" name="interest" value="1">Blue
+            <input type="checkbox" name="interest" value="2">Green
+            <input type="checkbox" name="interest" value="3">Orange
+          </div>
+          <div class="">
+            <label for="">Language:</label>
+            <select class="" name="lang">
+              <option value="en">English</option>
+              <option value="per">Persian</option>
+              <option value="jap">Japanese</option>
+              <option value="span">Spanish</option>
+              <option value="port">Portuguese</option>
+            </select>
+          </div>
+          <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg"></textarea>
+          </div>
+          <div id="contact_button">
+            <button type="submit">Send your message</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!---footer--------------------------------------------------->
+    <div id="footer">
+      <table>
+        <tr>
+          <th>About</th>
+          <th>Background</th>
+          <th>Recommendation</th>
+          <th>Social Networking</th>
+        </tr>
+        <tr>
+          <td><a href="#">Profile</a></td>
+          <td><a href="#">Job Experience A</a></td>
+          <td><a href="#">@MyFriendsA Tech Blog</a></td>
+          <td><a href="#">Twitter</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="#">Job Experience B</a></td>
+          <td><a href="#">@MyFriendsB Tech Blog</a></td>
+          <td><a href="#">Facebook</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="#">Job Experience C</a></td>
+          <td><a href="#">@MyFriendsC Tech Blog</a></td>
+          <td><a href="#">LinkedIn</a></td>
+        </tr>
+      </table>
+    </div>
+    <!---copyright--------------------------------------------------->
+    <div id="copyright">
+      <p>
+        Copyright &copy; 2015 <a href="./index.html">My Blog Page</a> All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
