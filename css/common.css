@@ -117,12 +117,10 @@ hr.artile_border {
   padding: 0;
 }
 #mainmenu ul li {
-  display: inline;
   font-size: 120%;
   font-family: arial;
 }
 #mainmenu ul li a {
-  display: block;
   text-decoration: none;
   padding: 19px 40px;
   float: left;
